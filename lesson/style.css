@@ -1,0 +1,307 @@
+#main-screen {
+    padding-top: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url(assets/img/Head-image.png)
+} 
+
+
+
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    padding-top: 0px;
+}
+
+.title h1 {
+    
+    font-family: 'Montserrat900', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 55px;
+}
+
+.title {
+    margin-top: 150px;
+    margin-bottom: 8px;
+}
+
+
+.text p {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.text {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.button button {
+    background: none;
+    border-width: 1.4px;
+    border-color: #ffffff;
+    padding: 0px 25px 4px 25px;
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    right: 40%;
+}
+
+
+
+.button a {
+    color: #ffffff;
+    font-size: 8px;
+}
+
+.button a:hover {
+    text-decoration: none;
+}
+
+
+
+
+/* Гамбургер меню */
+
+#nav-toggle { position: absolute; left: 95%; top: 0%; }
+
+#nav-toggle { cursor: pointer; padding: 0px 35px 16px 0px; }
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 2px;
+  width: 18px;
+  background: white;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -5px; 
+}
+#nav-toggle span:after {
+  bottom: -5px;
+}
+
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  transition: all 500ms ease-in-out;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+/* Вторая часть */
+
+
+#second-screen {
+    background: #F5F5F5;
+    padding: 145px 0px;
+}
+#second-screen  
+.laptop img {
+    position: absolute; 
+    left: -113px;
+}
+.laptop {
+    position: relative;
+}
+.info-laptop {
+    margin-top: 6.2%;
+    margin-bottom: 6.2%;
+}
+
+.info-laptop h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+.info-laptop p {
+    font-family: 'Poppins', sans-serif;
+    color: #696969;
+    font-size: 11px;
+    font-weight: 300;
+}
+.info-laptop button a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+.info-laptop button a:hover {
+    text-decoration: none;
+}
+.info-laptop button {
+    background-color: #F5F5F5 ;
+    border-width: 2px;
+    border-color: black;
+    padding: 0px 16px 4px 16px;
+    margin-left: 4px;
+    margin-top: 8px;
+}
+ 
+
+/* Third screen */
+
+#third-screen {
+    padding-top: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    min-height: 600px;
+    background-image: url(assets/img/background-sea.png)
+ }
+.iphone-image img {
+    position: absolute;
+    width: 38%;
+    
+}
+.iphone-image {
+    position: relative;
+}
+.iphone-info h2 {
+    color: #ffffff;
+    font-family: 'MontserratBold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.iphone-info p {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 10.4px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.iphone-info {
+    padding-top: 240px;
+    padding-left: 20px;;
+}
+.fa-th-large {
+    font-size: 29px;
+    color: #ffffff;
+    padding-left: 17px;
+}
+.fa-cog {
+    font-size: 31px;
+    color:#fff;
+    padding-left: 17px;
+}
+.fa-toggle-on {
+    font-size: 32px;
+    color: #ffffff;
+    padding-left: 15px;
+}
+.icons li {
+    display: inline-block;
+}
+.icons p {
+    font-size: 10.4px;
+    padding-top: 8px;
+}
+.icons {
+    padding-left: 0px;
+}
+.icons li {
+    padding-right: 24px;
+}
+
+.iphone-image img {
+    position: absolute;
+    padding-top: 145px;
+    margin-left: 100px;
+}
+.iphone-image {
+    position: relative;
+}
+
+
+/* Screen # four */
+
+
+#screen-four {
+    background: #092f61;
+    padding-top: 270px;
+    padding-bottom: 250px;
+}
+.slogan h3 {
+    text-align: left;
+    padding-left: 130px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    font-size: 32px;
+    padding-bottom: 110px;
+}
+.fish p {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 120px;
+}
+.spisok li {
+    display: inline-block;
+
+}
+.fa-pen-nib {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 30px;
+}
+.fa-cube {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 30px;
+}
+.fa-mobile-alt {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 30px;
+}
+.fa-crop {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 30px;
+}
+.fa-life-ring {
+    font-size: 40px;
+    color: #fff;
+    padding-left: 25px;
+}
+.spisok p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #fff;
+
+}
+.spisok li {
+    padding-right: 48px;
+}
+.spisok {
+    padding-left: 130px;
+}
